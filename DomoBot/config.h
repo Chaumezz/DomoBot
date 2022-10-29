@@ -31,11 +31,11 @@ const int PWM_Res = 10;
 const int PWM_Freq = 20000;
 
 // Pinout Encoder CONFIG
-#define EncoderPin_A      39 
-#define EncoderPin_B      36
+#define EncoderPin_A      34 
+#define EncoderPin_B      35
 
-#define EncoderPin_C      34
-#define EncoderPin_D      34 
+#define EncoderPin_C      39
+#define EncoderPin_D      36 
 #define ENCODER_DEBUG false
 
 // Pinout IMU MPU CONFIG
