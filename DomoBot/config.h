@@ -4,12 +4,13 @@
 char DOMOLAMP_ID  [BOT_ID_LEN]   = "D0M0B0T";
 
 // Pinout MOTOR CONFIG
-#define RIGHT_WHEEL_PWM      5
-#define RIGHT_WHEEL_IN1      18
-#define RIGHT_WHEEL_IN2      19
-#define LEFT_WHEEL_PWM      23
-#define LEFT_WHEEL_IN1      17
-#define LEFT_WHEEL_IN2      16
+#define RIGHT_WHEEL_PWM      19
+#define RIGHT_WHEEL_IN1      16
+#define RIGHT_WHEEL_IN2      17
+
+#define LEFT_WHEEL_PWM      18
+#define LEFT_WHEEL_IN1      23
+#define LEFT_WHEEL_IN2       5
 
 #define DOMOBOT_DEBUG false
 #define DOMOBOT_POSE false
@@ -30,10 +31,11 @@ const int PWM_Res = 10;
 const int PWM_Freq = 20000;
 
 // Pinout Encoder CONFIG
-#define EncoderPin_A     36  
-#define EncoderPin_B     39
-#define EncoderPin_C     35
-#define EncoderPin_D     34
+#define EncoderPin_A      39 
+#define EncoderPin_B      36
+
+#define EncoderPin_C      34
+#define EncoderPin_D      34 
 #define ENCODER_DEBUG false
 
 // Pinout IMU MPU CONFIG
