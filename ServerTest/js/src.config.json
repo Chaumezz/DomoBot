@@ -19,24 +19,65 @@
         },
         {
             "priority": 4,
-            "link":"https://utilsjs.s3.eu-west-3.amazonaws.com/three.min.js"
+            "link":"https://cdnjs.cloudflare.com/ajax/libs/three.js/0.146.0/three.min.js"
         },
         {
             "priority": 5,
-            "link":"https://utilsjs.s3.eu-west-3.amazonaws.com/TrackballControls.js"
+            "link":"https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"
         },
         {
             "priority": 6,
-            "link":"js/domobot_loader.js"
+            "link":"js/three_loaders/OBJLoader.js"
         },
         {
-            "priority": 7,  
+            "priority": 7,
+            "link":"js/three_loaders/MTLLoader.js"
+        },
+        {
+            "priority": 8,
+            "link":"js/three_loaders/OBJMTLLoader.js"
+        },
+        {
+            "priority": 9,
+            "link":"js/three_loaders/STLLoader.js"
+        },
+        {
+            "priority": 10,
+            "link":"js/three_control/lil.gui.js"
+        },
+        {
+            "priority": 11,
+            "link":"js/three_control/TrackballControls.js"
+        },
+        {
+            "priority": 12,
+            "link":"js/three_control/TransformControls.js"
+        },
+        {
+            "priority": 13,
+            "link":"js/shape_Loader.js"
+        },
+        {
+            "priority": 14,  
             "link":"js/map_bot.js"
         },
         {
-            "priority": 8,  
+            "priority": 15,
+            "link":"js/domobot_loader.js"
+        },
+        {
+            "priority": 16,  
+            "link":"js/map_init.js"
+        },
+        {
+            "priority": 17,  
+            "link":"js/bot_GUI.js"
+        },
+        {
+            "priority": 18,  
             "link":"js/UIEvents.js"
         }
     ],
-    "config_json": "js/domobot_config.json"
+    "config_json": "js/domobot.config.json",
+    "config_shape": "js/bot_shape.json"
 }
